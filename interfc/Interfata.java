@@ -18,7 +18,7 @@ import javax.swing.SwingConstants;
 public class Interfata {
 
 	private JFrame frame;
-	private final Action action = new SwingAction();
+
 	private final JButton btnCev = new JButton("cev2");
 
 	/**
@@ -77,12 +77,6 @@ public class Interfata {
 		
 		
 	}
-	private class SwingAction extends AbstractAction {
-		public SwingAction() {
-			putValue(NAME, "SwingAction");
-			putValue(SHORT_DESCRIPTION, "Some short description");
-		}
 		public void actionPerformed(ActionEvent e) {
 		}
 	}
-}
